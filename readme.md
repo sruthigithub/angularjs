@@ -1,2 +1,4 @@
-AngularJS examples
+AngularJS Examples
 ===========
+
+Simple AngularJS examples
