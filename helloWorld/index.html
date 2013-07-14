@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title>Hello World</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Legend</legend>
+                <label>Label name</label>
+                <input type="text" ng-model="yourName" placeholder="Type something…">
+                <label>
+                    {{yourName}}
+                </label>
+            </fieldset>
+        </form>
+    </body>
+</html>
